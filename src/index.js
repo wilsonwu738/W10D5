@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 function Root() {
   return (
     <BrowserRouter>
-      <App />
+      <App /> 
     </BrowserRouter>
   ); 
 }
@@ -15,7 +15,7 @@ function Root() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <Root /> 
   </React.StrictMode>,
   document.getElementById('root')
 );

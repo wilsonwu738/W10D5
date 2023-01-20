@@ -7,7 +7,7 @@ function GalleryNavigation(props){
         
         return <NavLink to={`/galleries/${ele.id}`}>{ele.name}</NavLink>
         
-    })
+    });
 
     console.log(galleries)
 
