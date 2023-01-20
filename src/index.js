@@ -2,20 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js';
-import { BrowserRouter } from 'react-router-dom';
-
-function Root() {
-  return (
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  );
-}
-
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <App/>
+    {/* <h1>Hello from Root</h1> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

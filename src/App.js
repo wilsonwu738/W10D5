@@ -1,9 +1,7 @@
-import GalleryNavigation from './components/GalleryNavigation/index.js';
-import harvardArt from './data/harvardArt.js'
-
 function App() {
+  // console.log(harvardArt)
   return (
-    <GalleryNavigation  galleries={harvardArt.records}/>
+    <h1>Hello from App</h1>
   );
 }
 
