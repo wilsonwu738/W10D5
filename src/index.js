@@ -1,22 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App.js';
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react'; 
+import ReactDOM from 'react-dom'; 
+import './index.css'; 
+import App from './App.js'; 
+import { BrowserRouter } from 'react-router-dom'; 
 
-function Root() {
-  return (
-    <BrowserRouter>
-      <App /> 
-    </BrowserRouter>
-  ); 
-}
+function Root() { 
+  return ( 
+    <BrowserRouter> 
+      <App />  
+    </BrowserRouter> 
+  );  
+} 
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Root /> 
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render( 
+  <React.StrictMode> 
+    <Root />  
+  </React.StrictMode>, 
+  document.getElementById('root') 
+); 
 
