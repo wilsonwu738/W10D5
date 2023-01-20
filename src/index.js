@@ -9,7 +9,7 @@ function Root() {
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  );
+  ); 
 }
 
 
