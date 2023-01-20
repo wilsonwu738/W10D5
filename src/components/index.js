@@ -5,10 +5,8 @@ function GalleryNavigation(props) {
   console.log(props)
   return(
     <nav>
-      <h1>hi Luis</h1>
-      <NavLink to="/">
-
-      </NavLink>
+      <h1>Galleries</h1>
+      <NavLink to="/"> {galleries} </NavLink>
     </nav>
   )
 }
